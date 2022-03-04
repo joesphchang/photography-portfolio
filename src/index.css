@@ -5,7 +5,7 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.home, .portfolio, .projects, .contact {
+.home, .portfolio, .project, .contact {
     display: flex;
     height: 90vh;
     align-items: center;
