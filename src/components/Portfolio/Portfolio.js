@@ -2,7 +2,7 @@ import React from 'react'
 
 function Portfolio() {
   return (
-    <div>
+    <div className='portfolio'>
       <h1>Hello from Portfolio</h1>
     </div>
   )

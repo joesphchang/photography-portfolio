@@ -42,7 +42,7 @@
     text-decoration: none;
     color: black;
     font-size: 20px;
-    width: 100%;
+    width: 85%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -90,4 +90,8 @@ span {
 .social-icons {
     font-size: 2rem;
     padding: 5px;
+}
+
+a:hover {
+    background-color: #ECEAE6B8;
 }
