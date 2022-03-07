@@ -1,0 +1,32 @@
+.home {
+display: grid;
+grid-template-columns: 2fr repeat(3, 1fr);
+grid-template-rows: repeat(4, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+h1 {
+    grid-row: 1;
+    grid-column: 1;
+    font-size: 96px;
+    font-weight: normal;
+    text-align: right;
+}
+
+h2 {
+    grid-row: 4;
+    grid-column: 3;
+    /* border: 2px solid red; */
+}
+
+.period {
+    color: red;
+}
+
+.home-image {
+    grid-row: 1; 
+    grid-column: 3 / span 2;
+    width: 75%;
+    height: 80vh;
+}
