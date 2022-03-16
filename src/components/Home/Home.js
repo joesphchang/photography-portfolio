@@ -9,8 +9,8 @@ const images = [
 	},
 	{
 		id: 1,
-		source: 'https://i.imgur.com/H1z2lAc.jpg',
-		alt: 'Night Walks',
+		source: 'https://i.imgur.com/X37fvRC.jpg',
+		alt: 'BCE',
 	},
 	{
 		id: 2,
@@ -19,8 +19,8 @@ const images = [
 	},
 	{
 		id: 3,
-		source: 'https://i.imgur.com/g1hSLdU.jpg',
-		alt: 'Deng - BCE',
+		source: 'https://i.imgur.com/TOon9rB.jpg',
+		alt: 'MarvXXL - Few Less',
 	},
 	{
 		id: 4,
@@ -66,16 +66,19 @@ function Home() {
 	}
 	return (
 		<div className='home'>
+			<h1>avantogarde</h1>
 			{images.map((image, index) => {
 				return (
 					<div key={image.source}>
 						{index === current}
 						{index === current && (
-							<img
-								src={image.source}
-								alt={image.alt}
-								className='home-images'
-							/>
+							<div className='image-container'>
+								<img
+									src={image.source}
+									alt={image.alt}
+									className='home-images'
+								/>
+							</div>
 						)}
 					</div>
 				);
