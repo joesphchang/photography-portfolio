@@ -19,8 +19,8 @@ export const SidebarData = [
 		cName: 'nav-text',
 	},
 	{
-		title: 'Street / Landscapes',
-		path: '/lifestyle',
+		title: 'Street & Landscapes',
+		path: '/street',
 		icon: <MdIcons.MdMonochromePhotos />,
 		cName: 'nav-text',
 	},

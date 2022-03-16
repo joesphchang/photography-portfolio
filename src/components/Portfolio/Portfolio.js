@@ -14,7 +14,6 @@ function Portfolio() {
 
 	return (
 		<div className='portfolio'>
-			<h1>Portfolio</h1>
 			<ul className='portfolio-list'>
 				{photos.map((photo) => {
 					return (
