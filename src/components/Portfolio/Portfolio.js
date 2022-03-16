@@ -15,11 +15,11 @@ function Portfolio() {
 	return (
 		<div className='portfolio'>
 			<h1>Portfolio</h1>
-			<ul>
+			<ul className='portfolio-list'>
 				{photos.map((photo) => {
 					return (
-						<li>
-							<img src={photo.image} alt={photo.title} />
+						<li className='portfolio-list-items'>
+							<img className='portfolio-images' src={photo.image} alt={photo.title} />
 						</li>
 					);
 				})}

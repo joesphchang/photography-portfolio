@@ -8,7 +8,7 @@
     width: 100%;
 }
 
-ul {
+.portfolio-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -18,12 +18,12 @@ ul {
     margin: auto;
 }
 
-li {
+.portfolio-list-items {
     text-decoration: none;
     list-style: none;
 }
 
-img {
+.portfolio-images {
     width: 500px;
     height: 700px;
     margin: 5px;
