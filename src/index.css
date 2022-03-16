@@ -9,7 +9,8 @@
 .home,
 .portfolio,
 .projects,
-.contact {
+.contact,
+.lifestyle {
 	display: flex;
 	height: 90vh;
 	align-items: center;
