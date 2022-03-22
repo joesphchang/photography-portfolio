@@ -6,6 +6,7 @@ import Portfolio from './components/Portfolio/Portfolio';
 import Project from './components/Project/Project';
 import Contact from './components/Contact/Contact';
 import Street from './components/Street/Street';
+import ProjectDetails from './components/ProjectDetails/ProjectDetails';
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 				<Route path='/portfolio' element={<Portfolio />} />
 				<Route path='/street' element={<Street />} />
 				<Route path='/projects' element={<Project />} />
+				<Route path='/projects/:id' element={<ProjectDetails />} />
 				<Route path='/contact' element={<Contact />} />
 			</Routes>
 		</div>
