@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './Street.css';
 
 function Street() {
 	const [photos, setPhotos] = useState([]);
