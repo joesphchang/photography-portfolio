@@ -1,11 +1,39 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import './Project.css';
 
 function Project() {
-  return (
-    <div className='projects'>
-      <h1>Hello from Projects</h1>
-    </div>
-  )
+	const [projects, setProjects] = useState([]);
+
+	useEffect(() => {
+		fetch('http://localhost:3000/api/projects')
+			.then((res) => res.json())
+			.then((res) => {
+				setProjects(res);
+			});
+	}, []);
+
+	return (
+		<div className='projects'>
+			<ul className='project-list'>
+				{projects.map((project) => {
+					return (
+						<Link
+							to={`/projects/${project._id}`}
+							className='project-list-items'>
+							<img
+								className='project-images'
+								src={project.photo}
+								alt={project.title}
+							/>
+							<h1>{project.title}</h1>
+              <p>{project.description}</p>
+						</Link>
+					);
+				})}
+			</ul>
+		</div>
+	);
 }
 
-export default Project
+export default Project;
