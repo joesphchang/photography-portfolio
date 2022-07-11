@@ -55,7 +55,7 @@
 }
 
 .nav-text a:hover {
-    border: .5px solid grey;
+    border: .5px solid rgb(111, 111, 111);
     border-radius: 5px;
 }
 
@@ -93,5 +93,10 @@ span {
 
 .social-icons {
     font-size: 2rem;
-    padding: 5px;
+    height: 15%;
+    padding: 3px;
+}
+
+.social-icons:hover {
+    box-shadow: rgba(53, 52, 52, 0.1) 0px 4px 12px;
 }
