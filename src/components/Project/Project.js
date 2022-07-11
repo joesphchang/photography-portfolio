@@ -6,7 +6,7 @@ function Project() {
 	const [projects, setProjects] = useState([]);
 
 	useEffect(() => {
-		fetch('http://localhost:3000/api/projects')
+		fetch('https://avanto-photography-backend.herokuapp.com/api/projects')
 			.then((res) => res.json())
 			.then((res) => {
 				setProjects(res);
