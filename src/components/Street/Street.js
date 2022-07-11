@@ -5,7 +5,7 @@ function Street() {
 	const [photos, setPhotos] = useState([]);
 
 	useEffect(() => {
-		fetch('http://localhost:3000/api/streetphotos')
+		fetch('https://avanto-photography-backend.herokuapp.com/api/streetphotos')
 			.then((res) => res.json())
 			.then((res) => {
 				setPhotos(res);

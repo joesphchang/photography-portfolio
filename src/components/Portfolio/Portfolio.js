@@ -5,7 +5,7 @@ function Portfolio() {
 	const [photos, setPhotos] = useState([]);
 
 	useEffect(() => {
-		fetch('http://localhost:3000/api/portfolios')
+		fetch('https://avanto-photography-backend.herokuapp.com/api/portfolios')
 			.then((res) => res.json())
 			.then((res) => {
 				setPhotos(res);
