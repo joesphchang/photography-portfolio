@@ -7,8 +7,14 @@ import * as MdIcons from 'react-icons/md';
 
 export const SidebarData = [
 	{
-		title: 'Portfolio',
+		title: 'Home',
 		path: '/',
+		icon: <AiIcons.AiFillHome />,
+		cName: 'nav-text',
+	},
+	{
+		title: 'Portfolio',
+		path: '/portfolio',
 		icon: <FaIcons.FaTh />,
 		cName: 'nav-text',
 	},
