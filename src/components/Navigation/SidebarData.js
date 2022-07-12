@@ -29,11 +29,11 @@ export const SidebarData = [
 		path: '/projects',
 		icon: <FaIcons.FaBox />,
 		cName: 'nav-text',
-	},
-	{
-		title: 'Contact',
-		path: '/contact',
-		icon: <AiIcons.AiFillContacts />,
-		cName: 'nav-text',
-	},
+	}
+	// {
+	// 	title: 'Contact',
+	// 	path: '/contact',
+	// 	icon: <AiIcons.AiFillContacts />,
+	// 	cName: 'nav-text',
+	// },
 ];
