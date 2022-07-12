@@ -6,13 +6,15 @@ import Project from './components/Project/Project';
 import Contact from './components/Contact/Contact';
 import Street from './components/Street/Street';
 import ProjectDetails from './components/ProjectDetails/ProjectDetails';
+import Home from './components/Home/Home';
 
 function App() {
 	return (
 		<div className='App'>
 			<Navigation />
 			<Routes>
-				<Route path='/' element={<Portfolio />} />
+				<Route path='/' element={<Home />} />
+				<Route path='/portfolio' element={<Portfolio />} />
 				<Route path='/street' element={<Street />} />
 				<Route path='/projects' element={<Project />} />
 				<Route path='/projects/:id' element={<ProjectDetails />} />

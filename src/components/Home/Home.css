@@ -1,0 +1,16 @@
+.each-slide {
+    display: flex;
+}
+
+.each-slide>div {
+    margin: 0 auto;
+}
+
+.each-slide>div img {
+    height: 800px;
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
