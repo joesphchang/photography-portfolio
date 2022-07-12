@@ -26,7 +26,7 @@ function Project() {
 								src={project.photo}
 								alt={project.title}
 							/>
-							<h1>{project.title}</h1>
+							<h3>{project.title}</h3>
               <p>{project.description}</p>
 						</Link>
 					);
